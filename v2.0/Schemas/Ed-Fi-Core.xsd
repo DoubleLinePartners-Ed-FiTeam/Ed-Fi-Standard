@@ -4485,7 +4485,7 @@ Special education students
 					<xs:element name="StudentCharacteristic" type="StudentCharacteristic" minOccurs="0" maxOccurs="unbounded">
 						<xs:annotation>
 							<xs:documentation>Reflects important characteristics of the student's home situation:
-Displaced Homemaker, Immigrant, Migratory, Military Parent, Pregnant Teen, Single Parent, and Unaccompanied Youth.</xs:documentation>
+Displaced Homemaker, Immigrant, Migratory, Military Parent, Pregnant Teen, Single Parent and Unaccompanied Youth.</xs:documentation>
 							<xs:appinfo>
 								<ann:EdFiId>1702</ann:EdFiId>
 							</xs:appinfo>
@@ -13251,7 +13251,7 @@ Distinguished Achievement Program.</xs:documentation>
 					</xs:appinfo>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="z" type="EducationOrganizationIdentificationSystemDescriptorReferenceType">
+			<xs:element name="EducationOrganizationIdentificationSystem" type="EducationOrganizationIdentificationSystemDescriptorReferenceType">
 				<xs:annotation>
 					<xs:documentation>The school system, state, or agency assigning the identification code.</xs:documentation>
 					<xs:appinfo>
