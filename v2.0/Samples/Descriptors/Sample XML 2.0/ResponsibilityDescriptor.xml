@@ -8,13 +8,6 @@
       <ResponsibilityMap>Accountability</ResponsibilityMap>
    </ResponsibilityDescriptor>
    <ResponsibilityDescriptor>
-      <CodeValue>Accountability</CodeValue>
-      <ShortDescription>Accountability</ShortDescription>
-      <Description>Accountability</Description>
-      <Namespace>http://www.ed-fi.org/Descriptor/ResponsibilityDescriptor.xml</Namespace>
-      <ResponsibilityMap>Attendance</ResponsibilityMap>
-   </ResponsibilityDescriptor>
-   <ResponsibilityDescriptor>
       <CodeValue>Funding</CodeValue>
       <ShortDescription>Funding</ShortDescription>
       <Description>Funding</Description>

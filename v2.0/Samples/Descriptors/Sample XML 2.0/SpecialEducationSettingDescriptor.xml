@@ -36,13 +36,6 @@
       <SpecialEducationSettingMap>Inside regular class no more than 79% of day and no less than 40% of the day</SpecialEducationSettingMap>
    </SpecialEducationSettingDescriptor>
    <SpecialEducationSettingDescriptor>
-      <CodeValue>Inside regular class no more than 79% of dy and no</CodeValue>
-      <ShortDescription>Inside regular class no more than 79% of dy and no less than 40% of the dy</ShortDescription>
-      <Description>Inside regular class no more than 79% of day and no less than 40% of the day</Description>
-      <Namespace>http://www.ed-fi.org/Descriptor/SpecialEducationSettingDescriptor.xml</Namespace>
-      <SpecialEducationSettingMap>Inside regular class no more than 79% of day and no less than 40% of the day</SpecialEducationSettingMap>
-   </SpecialEducationSettingDescriptor>
-   <SpecialEducationSettingDescriptor>
       <CodeValue>Parentally-placed in Private Schools</CodeValue>
       <ShortDescription>Parentally-placed in Private Schools</ShortDescription>
       <Description>Parentally-placed in Private Schools</Description>
