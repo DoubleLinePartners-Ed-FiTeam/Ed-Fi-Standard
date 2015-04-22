@@ -78,10 +78,4 @@
       <Description>Disgraphia</Description>
       <Namespace>http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml</Namespace>
    </ServiceDescriptor>
-   <ServiceDescriptor>
-      <CodeValue>Disgraphia</CodeValue>
-      <ShortDescription>Disgraphia</ShortDescription>
-      <Description>Disgraphia</Description>
-      <Namespace>http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml</Namespace>
-   </ServiceDescriptor>
 </InterchangeDescriptors>
