@@ -13563,7 +13563,7 @@ Change of assignment.</xs:documentation>
 					</xs:appinfo>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="TimeRequired" type="xs:duration" minOccurs="0">
+			<xs:element name="TimeRequired" type="TimeInterval" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience.</xs:documentation>
 					<xs:appinfo>
