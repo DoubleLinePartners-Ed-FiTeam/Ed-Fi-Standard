@@ -77,7 +77,7 @@
 							</xs:appinfo>
 						</xs:annotation>
 					</xs:element>
-					<xs:element name="TotalInstructionalDays" type="xs:int">
+					<xs:element name="TotalInstructionalDays" type="TotalInstructionalDays">
 						<xs:annotation>
 							<xs:documentation>The total instructional days during the academic week.</xs:documentation>
 							<xs:appinfo>
@@ -3948,7 +3948,7 @@ Special education students
 							</xs:appinfo>
 						</xs:annotation>
 					</xs:element>
-					<xs:element name="TotalInstructionalDays" type="xs:int">
+					<xs:element name="TotalInstructionalDays" type="TotalInstructionalDays">
 						<xs:annotation>
 							<xs:documentation>The total number of instructional days in the school calendar.</xs:documentation>
 							<xs:appinfo>
