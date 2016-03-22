@@ -27025,6 +27025,10 @@ The Federal Information Processing Standards (FIPS) numeric code for the county 
 	<xs:simpleType name="DisciplineActionLength">
 		<xs:annotation>
 			<xs:documentation>The length, in school days, of the disciplinary action.</xs:documentation>
+			<xs:appinfo>
+				<ann:TypeGroup>Simple</ann:TypeGroup>
+				<ann:EdFiId>2460</ann:EdFiId>
+			</xs:appinfo>
 		</xs:annotation>
 		<xs:restriction base="xs:int"/>
 	</xs:simpleType>
