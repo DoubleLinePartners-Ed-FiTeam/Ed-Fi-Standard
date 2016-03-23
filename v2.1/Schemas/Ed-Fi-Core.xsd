@@ -11544,6 +11544,50 @@ Volunteer/no contract
 			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
+	<xs:complexType name="StaffProgramAssociationIdentityType">
+		<xs:annotation>
+			<xs:documentation>Encapsulates the possible attributes that can be used to lookup the identity of a staff program association.</xs:documentation>
+			<xs:appinfo>
+				<ann:TypeGroup>Identity</ann:TypeGroup>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="StaffReference" type="StaffReferenceType">
+				<xs:annotation>
+					<xs:documentation>The Staff associated with the Program.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProgramReference" type="ProgramReferenceType">
+				<xs:annotation>
+					<xs:documentation>The Program associated to the Staff.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BeginDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Start date for the association of staff to this program.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="StaffProgramAssociationReferenceType">
+		<xs:annotation>
+			<xs:documentation>Provides alternative references for Staff Program Association. Use XML IDREF to reference a record that is included in the interchange. Use the identity type to lookup a record that was loaded previously.</xs:documentation>
+			<xs:appinfo>
+				<ann:TypeGroup>Extended Reference</ann:TypeGroup>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ReferenceType">
+				<xs:sequence>
+					<xs:element name="StaffProgramAssociationIdentity" type="StaffProgramAssociationIdentityType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Encapsulates the possible attributes that can be used to lookup the identity of a staff program association.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
 	<xs:complexType name="StaffReferenceType">
 		<xs:annotation>
 			<xs:documentation>Provides alternative references for Staff reference during interchange (including teachers). Use XML IDREF to reference a staff record that is included in the interchange.</xs:documentation>
